@@ -1,0 +1,31 @@
+#main{
+    background-color:#DBF9B8;
+    font-family:Microsoft JhengHei;
+    width:400px;
+    height:500px;
+    text-align: center;
+}
+
+h1{
+    padding:15px 0 0 0;
+}
+
+ul {
+    list-style-type:none;
+    margin:10px 0;
+    padding:1px 0;
+}
+li{
+    background-color: #CAE2BC;
+    padding:10px 0 10px 10px  ;
+    text-align:left;
+    position: relative;
+}
+li button{
+    position: absolute;
+    right:0;
+    margin:0 2px 0 0;
+}
+ul li.finished{
+    text-decoration: line-through;
+}
