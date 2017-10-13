@@ -18,9 +18,9 @@ function add() {
     var input = document.querySelector("#task").value
     var a = document.createElement("li")
     var content = document.createTextNode(input)
-    a.setAttribute("id", input)
+    a.setAttribute("id", "unfinished")
     a.appendChild(content)
-    if (input === '') {
+    if (content === '') {
         alert("不要沒事做啊!")
     } else {
         list.appendChild(a)
@@ -43,6 +43,7 @@ function showUnfinshed() {
     var get = document.getElementsByClassName('finished')
     for (var i = 0; i < get.length; i++) {
         get[i].style.display = 'none';
+        
     }
 }
 
